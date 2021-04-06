@@ -18,10 +18,5 @@ document.addEventListener('DOMContentLoaded', () => {
             alert('El elemento esta vacio');
         }
     }
-    function eliminar(elemento) {
-        var id = elemento.parentNode.getAttribute('id');
-        node = document.getElementById(id);
-        node.parentNode.removeChild(node);
-    }
     boton.onclick = add;
 });
